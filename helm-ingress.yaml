@@ -5,7 +5,7 @@ metadata:
 spec:
   ingressClassName: nginx-ingress
   rules:
-  - host: YOUR_HOST_DNS_NAME
+  - host: 172-239-7-124.ip.linodeusercontent.com
     http:
       paths:
         - path: /
