@@ -114,6 +114,12 @@ We can now create databases and collections.
 
 So everything works.
 
+**Note:** If you have trouble logging in, check the credentials in the Mongo Express pod logs:
+
+```bash
+kubectl logs deployment/mongo-express
+```
+
 ## 5. Uninstall and Clean Up
 
 ### 5.1. Uninstall MongoDB Helm Chart
